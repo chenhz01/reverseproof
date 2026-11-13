@@ -1,6 +1,6 @@
 # reverseproof — 逆向/竞品分析的合规化中间层
 
-[![selftest](https://img.shields.io/badge/selftest-10%2F10%20PASS-brightgreen)](./test/selftest.mjs) [![license](https://img.shields.io/badge/license-MIT-blue)](./LICENSE)
+[![selftest](https://img.shields.io/badge/selftest-10%2F10%20PASS-brightgreen)](./test/selftest.mjs) [![license](https://img.shields.io/badge/license-Apache--2.0-blue)](./LICENSE)
 
 **解决什么问题**：逆向需求真实存在（rea 7 个月 456k★），但直接爬取=法律灰区+ToS 违约风险。中间层空缺：没有工具回答「这个分析动作合不合规」。reverseproof 是**评估器，不是爬虫**——它不抓任何东西，只回答：给定你的证据，你的分析动作能否合规成立。
 
