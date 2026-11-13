@@ -26,9 +26,13 @@ const r = assess('shop.example.com', {
 r.verdict // 'allowed' | 'blocked'，blockers 数组给出每条阻止理由
 ```
 
+## 复现挑战（欢迎来吵）
+
+`node test/selftest.mjs` 一条命令复现 10/10。**发现漏判的违规模式（robots 通配符、ToS 新表述、证据链绕过），直接开 issue 附反例，逐条对账**——真讨论比 star 有用。
+
 ## 设计
 
-按《70 维设计标准》自查评分见 [DESIGN.md](./DESIGN.md)。
+按 REV70 双七发表门禁逐维表自查（D1–D7 工程尺 × F1–F7 发表族，**无综合分**）见 [DESIGN.md](./DESIGN.md)；Agent 入口见 [AGENTS.md](./AGENTS.md)。
 
 ## 未做清单（边界）
 
